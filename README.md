@@ -14,7 +14,7 @@ Docker Image for running ASP.NET applications in docker. This extension on the c
 
 <!-- TOC --><a name="vulnerabilities"></a>
 # Vulnerabilities
-All the security checks will be done by scout.docker.com. The last security check has been performed on 20-03-2024. During this test, there was one medium risks found. It's not yet fixed because there is no fix available yet.
+All the security checks will be done by scout.docker.com. The last security check has been performed on 21-03-2024. During this test, there was one medium risks found. It's not yet fixed because there is no fix available yet.
 
 |Id|CVSS Risk |CVSS SCORE|Summary|
 |--|--|--|--|
@@ -22,7 +22,7 @@ All the security checks will be done by scout.docker.com. The last security chec
 
 <!-- TOC --><a name="low"></a>
 ## LOW
-In total, there are 19 low-risk issues that are not further addressed yet.
+In total, there are 25 low-risk issues that are not further addressed yet.
 
 <!-- TOC --><a name="usage"></a>
 # Usage
