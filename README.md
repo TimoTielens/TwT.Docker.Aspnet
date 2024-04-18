@@ -14,15 +14,16 @@ Docker Image for running ASP.NET applications in docker. This extension on the c
 
 <!-- TOC --><a name="vulnerabilities"></a>
 # Vulnerabilities
-All the security checks will be done by scout.docker.com. The last security check has been performed on 21-03-2024. During this test, there was one medium risks found. It's not yet fixed because there is no fix available yet.
+All the security checks will be done by scout.docker.com. The last security check has been performed on 18-04-2024. During this test, two medium risks found were found. It's not yet fixed because there is no fix available yet.
 
 |Id|CVSS Risk |CVSS SCORE|Summary|
 |--|--|--|--|
 |[CVE-2024-2236](https://scout.docker.com/vulnerabilities/id/CVE-2024-2236?s=debian&n=libgcrypt20&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.10.1-3&utm_source=desktop&utm_medium=ExternalLink)|Medium|5.9|A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-style attack, which can lead to the decryption of RSA ciphertexts.|
+|[CVE-2024-28182](https://scout.docker.com/vulnerabilities/id/CVE-2024-28182?s=debian&n=nghttp2&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.52.0-1%2Bdeb12u1&utm_source=desktop&utm_medium=ExternalLink)|Medium|5.3|  The nghttp2 library keeps reading the unbounded number of HTTP/2 CONTINUATION frames even after a stream is reset to keep HPACK context in sync. |
 
 <!-- TOC --><a name="low"></a>
 ## LOW
-In total, there are 25 low-risk issues that are not further addressed yet.
+In total, there are 32 low-risk issues that are not further addressed yet.
 
 <!-- TOC --><a name="usage"></a>
 # Usage
