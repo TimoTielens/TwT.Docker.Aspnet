@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:8.0.11
+FROM mcr.microsoft.com/dotnet/aspnet:8.0.13
 
 #############################
 ### ENVIRONMENT VARIABLES ###
@@ -6,9 +6,10 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0.11
 # Name of the base image that will be used
 ENV BASE_NAME="mcr.microsoft.com/dotnet/aspnet"
 # Version of the base image that will be used
-ENV BASE_VERSION="8.0.11"
+ENV BASE_VERSION="8.0.13"
 # Name and version of the base image that will be used
-ENV Base=mcr.microsoft.com/dotnet/aspnet:8.0.11
+# https://mcr.microsoft.com/en-us/artifact/mar/dotnet/aspnet/tags
+ENV Base=mcr.microsoft.com/dotnet/aspnet:8.0.13
 
 ###################################
 ### ARGUMENTS  - opencontainers ###
