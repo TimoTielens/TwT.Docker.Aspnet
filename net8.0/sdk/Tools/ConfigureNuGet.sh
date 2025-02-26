@@ -1,11 +1,11 @@
-echo "Adding private NuGet feed"
-echo "Username is '$1'"
-echo "Password is '$2'"
-echo "source is '$3'"
-
 Username=$1
 Password=$2
 Source=$3
+
+echo "Adding private NuGet feed"
+echo "Username is ${Username}"
+echo "Password is ${Password"
+echo "source is ${Source"
 
 dotnet nuget add source "${Source}" \
       --name "privateFeed" \
