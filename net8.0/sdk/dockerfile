@@ -1,4 +1,4 @@
-FROM docker pull mcr.microsoft.com/dotnet/sdk:8.0.406
+FROM mcr.microsoft.com/dotnet/sdk:8.0.406
 
 #############################
 ### ENVIRONMENT VARIABLES ###
