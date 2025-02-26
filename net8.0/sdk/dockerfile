@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:8.0.13
+FROM docker pull mcr.microsoft.com/dotnet/sdk:8.0.406
 
 #############################
 ### ENVIRONMENT VARIABLES ###
@@ -6,10 +6,10 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0.13
 # Name of the base image that will be used
 ENV BASE_NAME="mcr.microsoft.com/dotnet/aspnet"
 # Version of the base image that will be used
-ENV BASE_VERSION="8.0.13"
+ENV BASE_VERSION="8.0.406"
 # Name and version of the base image that will be used
 # https://mcr.microsoft.com/en-us/artifact/mar/dotnet/aspnet/tags
-ENV Base=mcr.microsoft.com/dotnet/aspnet:8.0.13
+ENV Base=mcr.microsoft.com/dotnet/aspnet:8.0.406
 
 ###################################
 ### ARGUMENTS  - opencontainers ###
@@ -17,13 +17,13 @@ ENV Base=mcr.microsoft.com/dotnet/aspnet:8.0.13
 # Date and time on which the image was built, conforming to RFC 3339
 ARG BUILD_DATE		    
 # Human-readable title of the image
-ARG BUILD_NAME=timotielens/dotnet/aspnet
+ARG BUILD_NAME=timotielens/dotnet/sdk
 # Human-readable description of the image	
-ARG BUILD_DESCRIPTION=Docker Image for running ASP.NET applications in docker
+ARG BUILD_DESCRIPTION=Docker Image for building ASP.NET applications in docker
 # version of the packaged software. FALLBACK is Build Date
 ARG BUILD_VERSION=$BUILD_DATE
 # Name of the author that created the image
-ARG AUTHOR_NAME=Timo Tielens
+ARG AUTHOR_NAME=Timo Tielens-Jansen
 # Vendor (organization or individual) that created the image
 ARG AUTHOR_VENDOR=TwT
 # E-mail of the Author
