@@ -7,5 +7,5 @@ dotnet nuget add source "'$3'" \
       --name "privateFeed" \
       --username "'$1'" \
       --password "'$2'" \
-      --store-password-in-clear-text;
-dotnet nuget list source;
+      --store-password-in-clear-text; \
+      dotnet nuget list source; \
