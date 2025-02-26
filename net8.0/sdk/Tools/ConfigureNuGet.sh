@@ -4,7 +4,7 @@ Source=$3
 
 echo "Adding private NuGet feed"
 echo "Username is '${Username}'"
-echo "Password is '${Password'"
+echo "Password is '${Password}'"
 echo "source is '${Source}'"
 
 dotnet nuget add source "'${Source}'" \
